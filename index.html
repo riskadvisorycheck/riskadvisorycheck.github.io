@@ -1,349 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Risk Advisory Check | AML Fraud Compliance Learning</title>
-
+<title>Risk Advisory Check</title>
 <style>
-
-body {
-    margin:0;
-    font-family: Arial, Helvetica, sans-serif;
-    color:#1f2937;
-    background:#ffffff;
-}
-
-header {
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:25px 8%;
-    background:white;
-}
-
-.logo {
-    font-size:24px;
-    font-weight:bold;
-    color:#0b2a4a;
-}
-
-nav a {
-    margin-left:25px;
-    text-decoration:none;
-    color:#374151;
-    font-weight:600;
-}
-
-
-.hero {
-    padding:90px 8%;
-    background:linear-gradient(135deg,#f5f9ff,#ffffff);
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-}
-
-
-.hero-text {
-    max-width:600px;
-}
-
-
-.hero h1 {
-    font-size:52px;
-    color:#0b2a4a;
-    line-height:1.15;
-}
-
-
-.hero p {
-    font-size:20px;
-    color:#4b5563;
-    line-height:1.6;
-}
-
-
-.button {
-    display:inline-block;
-    margin-top:25px;
-    padding:14px 28px;
-    border-radius:30px;
-    text-decoration:none;
-    font-weight:bold;
-}
-
-
-.primary {
-    background:#0b2a4a;
-    color:white;
-}
-
-
-.secondary {
-    border:2px solid #0b2a4a;
-    color:#0b2a4a;
-    margin-left:10px;
-}
-
-
-
-section {
-    padding:70px 8%;
-}
-
-
-.title {
-    text-align:center;
-    font-size:36px;
-    color:#0b2a4a;
-}
-
-
-.cards {
-    display:flex;
-    gap:25px;
-    margin-top:40px;
-    flex-wrap:wrap;
-}
-
-
-.card {
-    flex:1;
-    min-width:250px;
-    padding:30px;
-    border-radius:20px;
-    background:white;
-    box-shadow:0 10px 30px rgba(0,0,0,0.08);
-}
-
-
-.card h3 {
-    color:#0b2a4a;
-}
-
-
-
-footer {
-    background:#0b2a4a;
-    color:white;
-    padding:35px 8%;
-    text-align:center;
-}
-
-
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#1f2937;background:#f7f9fc}
+header{position:sticky;top:0;background:#fff;padding:18px 7%;display:flex;justify-content:space-between;align-items:center;box-shadow:0 2px 12px rgba(0,0,0,.06)}
+.logo{font-size:28px;font-weight:700;color:#0b2a4a}
+nav a{text-decoration:none;color:#334155;margin-left:24px;font-weight:600}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;padding:80px 7%;align-items:center;background:linear-gradient(135deg,#eef5ff,#fff)}
+h1{font-size:56px;line-height:1.1;color:#0b2a4a;margin:0 0 20px}
+.lead{font-size:20px;line-height:1.7;color:#475569}
+.btn{display:inline-block;padding:14px 24px;border-radius:999px;text-decoration:none;font-weight:700;margin:20px 12px 0 0}
+.primary{background:#0b2a4a;color:#fff}.secondary{border:2px solid #0b2a4a;color:#0b2a4a}
+.mock{background:#fff;border-radius:24px;padding:36px;box-shadow:0 20px 40px rgba(0,0,0,.1)}
+.badge{display:inline-block;background:#e8f0ff;color:#0b2a4a;padding:8px 14px;border-radius:999px;font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px;padding:20px 7% 80px}
+.card{background:#fff;padding:28px;border-radius:20px;box-shadow:0 8px 24px rgba(0,0,0,.08)}
+.section-title{text-align:center;color:#0b2a4a;font-size:38px;margin:70px 0 10px}
+footer{background:#0b2a4a;color:#fff;text-align:center;padding:40px 7%}
+@media(max-width:900px){.hero{grid-template-columns:1fr}nav{display:none}h1{font-size:42px}}
 </style>
-
 </head>
-
-
 <body>
-
-
-<header>
-
-<div class="logo">
-Risk Advisory Check
-</div>
-
-
-<nav>
-<a href="#">Home</a>
-<a href="#">About</a>
-<a href="#">Learning</a>
-<a href="#">Case Studies</a>
-<a href="#">Contact</a>
-</nav>
-
-
-</header>
-
-
-
+<header><div class="logo">Risk Advisory Check</div><nav><a href="#">Home</a><a href="#">Learning</a><a href="#">Case Studies</a><a href="#">About</a><a href="#">Contact</a></nav></header>
 <section class="hero">
-
-<div class="hero-text">
-
-<h1>
-Protect. Learn. Identify Risk.
-</h1>
-
-
-<p>
-Risk Advisory Check provides practical AML, Fraud Risk, KYC and Compliance learning experiences for professionals, new learners and individuals who want to strengthen their risk awareness.
-</p>
-
-
-<a href="#" class="button primary">
-Explore Learning
-</a>
-
-
-<a href="#" class="button secondary">
-Test Awareness
-</a>
-
-
+<div>
+<div class="badge">AML • Fraud • Compliance • KYC</div>
+<h1>Protect.<br>Learn.<br>Prevent.</h1>
+<p class="lead">Practical AML, Fraud Risk, Compliance and KYC learning through real-world case studies, awareness challenges and professional development.</p>
+<a class="btn primary" href="#">Start Learning</a>
+<a class="btn secondary" href="#">Test Awareness</a>
 </div>
-
-
+<div class="mock">
+<h2>Featured Case Study</h2>
+<h3>Money Mule Investigation</h3>
+<p>Can you identify the red flags before reading the expert analysis?</p>
+<hr>
+<p>✔ Scenario-based learning</p>
+<p>✔ Fraud awareness testing</p>
+<p>✔ Practical compliance skills</p>
+</div>
 </section>
-
-
-
-
-
-<section>
-
-<h2 class="title">
-Who is RAC for?
-</h2>
-
-
-<div class="cards">
-
-
-<div class="card">
-
-<h3>
-Compliance Professionals
-</h3>
-
-<p>
-Enhance your AML, KYC and Fraud Risk knowledge through practical scenarios and real-world case studies.
-</p>
-
-</div>
-
-
-
-<div class="card">
-
-<h3>
-New Professionals
-</h3>
-
-<p>
-Build confidence and understand how risk teams identify and manage financial crime threats.
-</p>
-
-</div>
-
-
-
-<div class="card">
-
-<h3>
-Individuals
-</h3>
-
-<p>
-Experience fraud awareness challenges and test your ability to recognise warning signs.
-</p>
-
-</div>
-
-
-</div>
-
+<h2 class="section-title">Who is RAC for?</h2>
+<section class="grid">
+<div class="card"><h3>Professionals</h3><p>AML, Fraud Risk, Compliance and KYC development.</p></div>
+<div class="card"><h3>New Professionals</h3><p>Build confidence through guided practical scenarios.</p></div>
+<div class="card"><h3>Individuals</h3><p>Recognise scams and strengthen fraud awareness.</p></div>
 </section>
-
-
-
-
-
-<section style="background:#f8fafc;">
-
-<h2 class="title">
-Learn Through Real Cases
-</h2>
-
-
-<div class="cards">
-
-
-<div class="card">
-<h3>AML Case Studies</h3>
-<p>
-Explore suspicious activity, customer risk and compliance decision-making.
-</p>
-</div>
-
-
-<div class="card">
-<h3>Fraud Investigations</h3>
-<p>
-Understand fraud patterns, red flags and prevention methods.
-</p>
-</div>
-
-
-<div class="card">
-<h3>KYC Challenges</h3>
-<p>
-Learn how identity risks and due diligence issues are managed.
-</p>
-</div>
-
-
-</div>
-
+<h2 class="section-title">Featured Learning</h2>
+<section class="grid">
+<div class="card"><h3>AML Essentials</h3></div>
+<div class="card"><h3>Fraud Investigations</h3></div>
+<div class="card"><h3>KYC Challenges</h3></div>
+<div class="card"><h3>Sanctions Screening</h3></div>
 </section>
-
-
-
-
-
-<section>
-
-<h2 class="title">
-Why Risk Advisory Check?
-</h2>
-
-
-<div class="cards">
-
-<div class="card">
-<h3>Practical Learning</h3>
-<p>
-Move beyond theory with realistic professional scenarios.
-</p>
-</div>
-
-
-<div class="card">
-<h3>Risk Awareness</h3>
-<p>
-Develop the ability to recognise financial crime indicators.
-</p>
-</div>
-
-
-<div class="card">
-<h3>Professional Growth</h3>
-<p>
-Support your journey in compliance, fraud and risk management.
-</p>
-</div>
-
-
-</div>
-
-</section>
-
-
-
-<footer>
-
-<p>
-© 2026 Risk Advisory Check | AML • Fraud Risk • Compliance Learning
-</p>
-
-</footer>
-
-
-
-</body>
-</html>
+<footer>© 2026 Risk Advisory Check | Professional Learning for AML • Fraud • Compliance • KYC</footer>
+</body></html>
